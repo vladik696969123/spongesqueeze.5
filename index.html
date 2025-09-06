@@ -12,48 +12,49 @@
     <header>
         <h1>Подія року: Концерт у вашому місті!</h1>
         <nav>
-            <ul>
-                <li><a href="#about-event">Про подію</a></li>
-                <li><a href="#tickets">Квитки</a></li>
-                <li><a href="#contact">Контакти</a></li>
-            </ul>
+        <ul>
+            <li><a href="#about-event">Про подію</a></li>
+            <li><a href="#tickets">Квитки</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
         </nav>
     </header>
     <main id="main-content">
-        <section id="#about-event">
+        <section id="about-event">
             <h2>Про подію</h2>
-<p>Приєднуйтесь до незабутнього концерту із зірками української сцени. Це подія, яку не можна
-пропустити! Насолоджуйтесь живою музикою, неймовірною атмосферою та хорошим настроєм. </p>
-<p><strong>Дата:</strong> 25 березня 2025 року</p>
-<p><strong>Місце:</strong> Концертна зала "Україна", м. Київ</p>
+            <p>Приєднуйтесь до незабутнього концерту із зірками української сцени. Це подія, яку не можна пропустити! Насолоджуйтесь живою музикою, неймовірною атмосферою та хорошим настроєм.</p>
+            <p><b>Дата:</b> 25 березня 2025 року</p>
+            <p><b>Місце:</b> Концертна зала "Україна" місто Київ.</p>
         </section>
-        <section id="#tickets">
+        <section id="tickets">
             <h2>Квитки</h2>
-<p>Виберіть тип квитка та заповніть форму бронювання: </p>
-<form action="/submit-ticket" method="post">
-<select id="ticket-type" name="ticket-type" required>
-<option value="standard" >Стандартний - 500 грн</option>
-<option value="vip">VIP - 1000 грн</option>
-</select>
-<input type="text" id="name" name="name" placeholder="Введіть ваше
- ім'я" required>
-<input type="email" id="email" name="email"
-placeholder="example@mail.com" required>
-<input type="tel" id="phone" name="phone"
-placeholder="+380123456789" required>
-<button type="submit">Забронювати</button>
-</form>
+            <p>Виберіть тип квитка та заповніть форму бронювання:</p>
+            <form action="/submit-ticket" method="POST">
+                <select name="ticket-type" id="ticket-type" required>
+                    <option value="standard">Стандартний: 500грн.</option>
+                    <option value="VIP">VIP: 1000 грн.</option>
+                </select>
+                <input type="text" id="name" placeholder="Ваше ім'я" required>
+                <input type="text" id="email" 
+placeholder="example@gmail.com
+" required>
+                <input type="text"id="phone" placeholder="+380 XX XXX XX XX" required>
+                <button type="submit">Забронювати квиток</button>
+            </form>
         </section>
-        <section id="#contact">
-            <h2>Контакти</h2>
-Зв'яжіться з нами, якщо маєте запитання:</p>
-<address>
-<p>Email: <a href="mailto:info@tickets.ua">info@tickets.ua</a></p>
-<p>Телефон: <a href="tel:+380987654321">+380 98 765 4321</a></p>
-</address>
+        <section id="contact">
+            <h2>контакти</h2>
+            <p>Зв'яжіться з нами, якщо маєте запитання:</p>
+            <address>
+            <p><a 
+href="mailto:info@tickets.ua
+">
+info@tickets.ua
+</a></p>
+            <p><a href="tel:+380967553456">+380967553456</a></p>
+            </address>
         </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Бронювання квитків. Усі права захищено</p>
+<footer>&copy; 2025 Бронювання квитків. Усі права захищено</footer>
+    </main> 
 </body>
 </html>
